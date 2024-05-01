@@ -7,6 +7,13 @@ public class LinkedHashSetApp {
     public static void main(String[] args) {
         Set<String> set = new LinkedHashSet<>();
 
+        set.add("Sudhir");
+        set.add("Meena");
+        set.add("Adam");
+        set.add("Kevin");
+        set.add("Joe");
 
+        for (String name : set)
+            System.out.println(name);
     }
 }
